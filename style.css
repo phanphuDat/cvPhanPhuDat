@@ -1,0 +1,160 @@
+body {
+  line-height: 1.6;
+  font-size: 16px;
+  color: rgb(45, 63, 78);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
+  font-family: courier,arial,helvetica;
+}
+
+.freecode {
+  color: #000;
+}
+
+.flex {
+  display: flex;
+}
+
+.wrapper {
+  max-width: 1170px;
+  width: 100%;
+  margin: auto;
+}
+.sidebar {
+  width: 35%;
+  background: rgb(78 115 132);
+  color: aliceblue;
+}
+.content {
+  width: 65%;
+  padding: 70px;
+  background: rgb(245 226 201);
+}
+/* ad */
+.avatar {
+  text-align: center;
+  padding: 60px 0;
+}
+.avatar img {
+  border-radius: 50%;
+  border: 5px solid rgb(240, 240, 240);
+  width: 205px;
+  height: 205px;
+  cursor: pointer;
+  filter: grayscale(20%);
+}
+.avatar img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+  box-shadow: 3px 3px 10px rgb(58, 58, 124);
+}
+.avatar h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  margin: 25px 0 0;
+  line-height: 1;
+}
+
+/*Module*/
+.sidebar .module {
+  padding: 0 45px;
+  margin-top: 50px;
+}
+.module__title {
+  font-size: 22px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.module__meta {
+  font-size: 13px;
+  color: rgb(161, 168, 168);
+  margin-bottom: 20px;
+}
+.module__meta i {
+  margin-right: 10px;
+}
+.module__meta span {
+  margin-right: 20px;
+}
+.module__title .circle {
+  margin-right: 10px;
+}
+.circle {
+  font-size: 14px;
+  color: white;
+  background: black;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 20px;
+}
+.circle.circle--large {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+.circle.circle--medium {
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+}
+.circle.circle--small {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+.circle.circle--white {
+  background: #fff;
+  color: black;
+}
+
+/* .progress-bar */
+.progress-bar,
+.progress-bar span {
+  height: 6px;
+  background: rgb(0, 0, 0);
+  border-radius: 6px;
+  display: block;
+}
+.progress-bar {
+  background: rgb(255, 255, 255);
+}
+.module--progress li {
+  margin-bottom: 50px;
+}
+
+/* section */
+.section:not(.last-child) {
+  margin-bottom: 50px;
+}
+.section__title {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+.section__content {
+  padding-left: 90px;
+}
+.content .module:not(:first-child) {
+  margin-top: 50px;
+}
+.content .module__title {
+  margin-top: 0;
+}
+/* working */
+.work {
+  justify-content: space-between;
+}
+.work__content {
+  text-align: center;
+}
+.work__content h4 {
+  margin-top: 10px;
+}
